@@ -343,7 +343,7 @@ $(document).ready(function(){
         return false
     })
     $('.tab1 .slide03 .button-next').click(function(){
-        $('.tab1.slide03').hide();
+        $('.tab1 .slide03').hide();
         $('.tab1 .slide04').fadeIn('linear');
         $('.tab1 .slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
         $('.tab1 .slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
@@ -372,7 +372,7 @@ $(document).ready(function(){
         return false
     })
     $('.tab2 .slide02 .button-next').click(function(){
-        $('.tab2.slide02').hide();
+        $('.tab2 .slide02').hide();
         $('.tab2 .slide03').fadeIn('linear');
         $('.tab2.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
         return false
@@ -390,8 +390,8 @@ $(document).ready(function(){
         return false
     })
     $('.tab2 .slide03 .button-prev').click(function(){
-        $('.slide03').hide();
-        $('.slide02').fadeIn('linear');
+        $('.tab2 .slide03').hide();
+        $('.tab2 .slide02').fadeIn('linear');
         return false
     })
     
@@ -404,7 +404,7 @@ $(document).ready(function(){
     $('.tab3 .slide02 .button-next').click(function(){
         $('.tab3 .slide02').hide();
         $('.tab3 .slide03').fadeIn('linear');
-        $('.tab3.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab3 .slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
         return false
     })
     $('.tab3 .slide02 .button-prev').click(function(){
