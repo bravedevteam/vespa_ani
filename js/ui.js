@@ -213,8 +213,51 @@ $(document).ready(function(){
             $('.lnb_sub .menu_sub .bg_bar').css('top','182px');
             $('.menu-trigger span').css('background','white');
         }
+        if(scrollValue < 1100){
+            $('.btn_tit').removeClass('on');
+            $('.btn_main').addClass('on');
+            $('.underline').removeClass('on');
+        }
+        if(scrollValue >= 1100){
+            $('.btn_tit').removeClass('on');
+            $('.btn_game_info').addClass('on');
+            $('.underline').removeClass('on');
+            $('.underline:first-child').addClass('on');
+            $('.underline a').css('color','#666');
+            $('.underline:first-child a').css('color','#222');
+        }
+        if(scrollValue >= 3774){
+            $('.underline').removeClass('on');
+            $('.underline:nth-child(2)').addClass('on');
+            $('.underline a').css('color','#666');
+            $('.underline:nth-child(2) a').css('color','#222');
+        }
+        if(scrollValue >= 5019){
+            $('.underline').removeClass('on');
+            $('.underline:nth-child(3)').addClass('on');
+            $('.underline a').css('color','#666');
+            $('.underline:nth-child(3) a').css('color','#222');
+        }
+        if(scrollValue >= 6945){
+            $('.underline').removeClass('on');
+            $('.underline:nth-child(4)').addClass('on');
+            $('.underline a').css('color','#666');
+            $('.underline:nth-child(4) a').css('color','#222');
+        }
+        if(scrollValue >= 8184){
+            $('.underline').removeClass('on');
+            $('.underline:nth-child(5)').addClass('on');
+            $('.underline a').css('color','#666');
+            $('.underline:nth-child(5) a').css('color','#222');
+        }
+        if(scrollValue >= 9359){
+            $('.underline').removeClass('on');
+            $('.btn_tit').removeClass('on');
+            $('.btn_down_move').addClass('on');
+        }
     });
-
+    
+    
     $('.lnb_sub .menu_sub .list_bar li:first-child,.btn_main').click(function(){
         var offset = $(".chap1").offset();
         $('.btn_tit').removeClass('on');
