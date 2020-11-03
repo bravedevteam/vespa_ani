@@ -177,11 +177,11 @@ section{max-width:1920px;margin:0 auto;}
 .chap2_story_info{width:100%;background:url('../images/images/bg_chap_story_info_wrap.png') left 0 top 85px no-repeat;margin-top:103px;padding-bottom:80px}
 .chap2_story_info .chap2_story_info_wrap{width:1200px;margin:0 auto;font-size:20px;color:#222;line-height:40px;display:flex}
 .chap2_story1{overflow: hidden;display:box;width:45%;}
-.chap2_story1 p:nth-child(2){margin-top:60px;margin-bottom:90px}
+.chap2_story1 p:nth-child(2){margin-top:60px;margin-bottom:50px}
 .chap2_story1 p:first-child,.chap2_story1 p:nth-child(2){display:none;}
 .chap2_story2{overflow: hidden;display:box;width:55%;}
 .chap2_story2 p:first-child::after{position: absolute;content:'';width:100%}
-.chap2_story2 p:last-child{display:none;margin-top:47px;margin-left:100px;}
+.chap2_story2 p:last-child{display:none;margin-top:7px;margin-left:100px;}
 
 /* chap2 */
 
