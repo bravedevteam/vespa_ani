@@ -356,18 +356,18 @@ $(document).ready(function(){
             })
         });
     })
-
+    
     /* chap3 */
     $('.chap3_tit_on').click(function(){
-        $('.chap3_pop').show(function(){
-            
-        });
+        $('.chap3_pop').show().css('position','fixed').css('top','15%');
+        $('body').css('overflow','hidden')
         $('#mask').show(function(){
             $('#mask').fadeTo("fast",.8);    
             wrapWindowByMask();
             $('#mask,.chap3_pop_close_btn').click(function(){
                 $('#mask').hide();
                 $('.chap3_pop').hide();
+                $('body').css('overflow','auto')
             })
         });
     })
