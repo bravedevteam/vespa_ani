@@ -349,7 +349,7 @@ section{max-width:1920px;margin:0 auto;}
 .chap7_appdown_btn li:last-child{margin-left:-20px}
 .chap7_video{height:1080px;width:100%;position: absolute;z-index:1;top:0;overflow: hidden;}
 .chap7_video::after{background:black;content:'';position: absolute;top:0;left:0;width:100%;height:100%;opacity:.5;}
-.chap7_video_sub{background:url('../images/images/btn_chap1_video_sub.png') no-repeat;width:94px;height:101px;margin:52px auto 15px auto;cursor:pointer;}
+.chap7_video_sub{background:url('../images/images/btn_chap1_video_sub.png') no-repeat;width:94px;height:101px;margin:52px auto 100px auto;cursor:pointer;}
 .chap7_video_sub_show{width:1280px;height:720px;display:none;position: absolute;z-index:999999;top:140px;left:320px}
 .chap7_video_sub_show::before{content:'';}
 .chap7_video_sub_show div{float:right;cursor: pointer;margin-bottom:10px;transition: all ease 1s;}
