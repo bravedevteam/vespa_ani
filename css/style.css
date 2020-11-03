@@ -301,9 +301,21 @@ section{max-width:1920px;margin:0 auto;}
 	}
 .chap5_list_wrap .tabs_chap5 li:last-child{margin-right:70px;}
 .chap5_list_wrap .tab_wrap{clear: both;float:left;margin-top:50px;}
-.chap5_list_wrap .tab_wrap ul{float:left;}
-.chap5_list_wrap .tab_wrap ul:last-child{margin-left:130px}
+/*.chap5_list_wrap .tab_wrap ul{float:left;}
+.chap5_list_wrap .tab_wrap ul:last-child{margin-left:130px}*/
 .chap5_list_wrap .tab_wrap ul li{color:#222;font-size:20px;line-height:45px;}
+.chap5_list_wrap .tab_wrap h3{font-size:25px;font-weight: bold;margin-bottom:20px;margin-top:40px}
+.chap5_list_wrap .tab_wrap h3:first-child{margin-top:0}
+.tab_content_chap5_list_h{height:500px;overflow-y:scroll;float:left;width:500px}
+.tab_content_chap5_list_h::-webkit-scrollbar {
+    width:3px;
+  }
+.tab_content_chap5_list_h::-webkit-scrollbar-thumb {
+	background-color: #dce7f0;
+}
+.tab_content_chap5_list_h::-webkit-scrollbar-track {
+   background-color: #e9f2fb;
+}
 .chap5_wrap{width:709px;background:url('../images/images/bg_chap5_wrap.png') no-repeat;height:1139px;position: absolute;z-index:1;top:0;left:1107px}
 /* chap5 */
 /* chap6 */
