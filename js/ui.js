@@ -244,7 +244,7 @@ $(document).ready(function(){
     });
     $('.lnb_sub .menu_sub .list_bar li:nth-child(6),.btn_music').click(function(){
         var offset = $(".chap6").offset();
-        $('html, body').animate({scrollTop : offset.top}, 500);
+        $('html, body').animate({scrollTop : offset.top+100}, 500);
         $('.lnb_sub .menu_sub .bg_bar').css('top','150px');
     });
     $('.lnb_sub .menu_sub .list_bar li:last-child,.btn_down_move').click(function(){
