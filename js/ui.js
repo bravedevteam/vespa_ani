@@ -326,86 +326,103 @@ $(document).ready(function(){
     
     /* chap4 */
     $('.tab1 .slide01 .button-next').click(function(){
-        $('.slide01').hide();
-        $('.slide02').fadeIn('linear');
-        $('.slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab1 .slide01').hide();
+        $('.tab1 .slide02').fadeIn('linear');
+        $('.tab1 .slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab1 .slide02 .button-next').click(function(){
-        $('.slide02').hide();
-        $('.slide03').fadeIn('linear');
-        $('.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab1 .slide02').hide();
+        $('.tab1 .slide03').fadeIn('linear');
+        $('.tab1 .slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab1 .slide02 .button-prev').click(function(){
-        $('.slide02').hide();
-        $('.slide01').fadeIn('linear');
+        $('.tab1 .slide02').hide();
+        $('.tab1 .slide01').fadeIn('linear');
+        return false
     })
     $('.tab1 .slide03 .button-next').click(function(){
-        $('.slide03').hide();
-        $('.slide04').fadeIn('linear');
-        $('.slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
-        $('.slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab1.slide03').hide();
+        $('.tab1 .slide04').fadeIn('linear');
+        $('.tab1 .slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
+        $('.tab1 .slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab1 .slide03 .button-prev').click(function(){
-        $('.slide03').hide();
-        $('.slide02').fadeIn('linear');
+        $('.tab1 .slide03').hide();
+        $('.tab1 .slide02').fadeIn('linear');
+        return false
     })
     $('.tab1 .slide04 .button-next').click(function(){
-        $('.slide04').hide();
-        $('.slide01').fadeIn('linear');
+        $('.tab1 .slide04').hide();
+        $('.tab1 .slide01').fadeIn('linear');
+        return false
     })
     $('.tab1 .slide04 .button-prev').click(function(){
-        $('.slide04').hide();
-        $('.slide03').fadeIn('linear');
+        $('.tab1 .slide04').hide();
+        $('.tab1 .slide03').fadeIn('linear');
+        return false
     })
     
     $('.tab2 .slide01 .button-next').click(function(){
-        $('.slide01').hide();
-        $('.slide02').fadeIn('linear');
-        $('.slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab2 .slide01').hide();
+        $('.tab2 .slide02').fadeIn('linear');
+        $('.tab2 .slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab2 .slide02 .button-next').click(function(){
-        $('.slide02').hide();
-        $('.slide03').fadeIn('linear');
-        $('.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab2.slide02').hide();
+        $('.tab2 .slide03').fadeIn('linear');
+        $('.tab2.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab2 .slide02 .button-prev').click(function(){
-        $('.slide02').hide();
-        $('.slide01').fadeIn('linear');
+        $('.tab2 .slide02').hide();
+        $('.tab2 .slide01').fadeIn('linear');
+        return false
     })
     $('.tab2 .slide03 .button-next').click(function(){
-        $('.slide03').hide();
-        $('.slide01').fadeIn('linear');
-        $('.slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
-        $('.slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab2 .slide03').hide();
+        $('.tab2 .slide01').fadeIn('linear');
+        $('.tab2 .slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
+        $('.tab2 .slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab2 .slide03 .button-prev').click(function(){
         $('.slide03').hide();
         $('.slide02').fadeIn('linear');
+        return false
     })
     
     $('.tab3 .slide01 .button-next').click(function(){
-        $('.slide01').hide();
-        $('.slide02').fadeIn('linear');
-        $('.slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab3 .slide01').hide();
+        $('.tab3 .slide02').fadeIn('linear');
+        $('.tab3 .slide02 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab3 .slide02 .button-next').click(function(){
-        $('.slide02').hide();
-        $('.slide03').fadeIn('linear');
-        $('.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab3 .slide02').hide();
+        $('.tab3 .slide03').fadeIn('linear');
+        $('.tab3.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab3 .slide02 .button-prev').click(function(){
-        $('.slide02').hide();
-        $('.slide01').fadeIn('linear');
+        $('.tab3 .slide02').hide();
+        $('.tab3 .slide01').fadeIn('linear');
+        return false
     })
     $('.tab3 .slide03 .button-next').click(function(){
-        $('.slide03').hide();
-        $('.slide01').fadeIn('linear');
-        $('.slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
-        $('.slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab3 .slide03').hide();
+        $('.tab3 .slide01').fadeIn('linear');
+        $('.tab3 .slide04 .button-next').css("background","url('images/images/btn_chap4_slide_next_on.png') no-repeat");
+        $('.tab3 .slide04 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        return false
     })
     $('.tab3 .slide03 .button-prev').click(function(){
-        $('.slide03').hide();
-        $('.slide02').fadeIn('linear');
+        $('.tab3 .slide03').hide();
+        $('.tab3 .slide02').fadeIn('linear');
+        return false
     })
 
     $(".tab_content").hide();

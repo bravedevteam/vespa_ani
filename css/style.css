@@ -259,7 +259,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap4 */
 .chap4{position: relative;margin-top:180px}
 .chap4 h2{font-family:'Poppins';font-weight:bold;font-size:120px;color:#00dce2;float:right;margin-right:70px;margin-top:100px;line-height:100px}
-.chap4_tab_wrap{margin-top:70px;float:right;clear: both;}
+.chap4_tab_wrap{margin-top:70px;float:right;clear: both;margin-right:110px}
 .chap4_tab_wrap ul li{float:left;display: inline-block;font-size:20px;color:#b7c5d5;margin-right:40px;cursor: pointer;position: relative;padding-bottom:10px}
 .chap4_tab_wrap ul li a{color:#b7c5d5;}
 .chap4_tab_wrap ul li.on,.chap4_tab_wrap ul li:hover{color:#222;background-image: linear-gradient(transparent calc(100% - 2px), #1fd9de 2px);
@@ -273,7 +273,7 @@ section{max-width:1920px;margin:0 auto;}
 .chap4_w::after{position: relative;}
 .tab_wrap{width:1326px;margin:0 auto;}
 .tab_wrap::after{position: relative;content:'';}
-.tab_wrap .chap4_char_info{clear: both;margin-top:60px;width:550px;float:right;margin-right:10px;letter-spacing:-1px;}
+.tab_wrap .chap4_char_info{clear: both;margin-top:60px;width:550px;float:right;margin-right:35px;letter-spacing:-1px;}
 .tab_wrap .chap4_char_info h3{font-size:40px;color:#222;font-weight:bold;margin-bottom:30px}
 .tab_wrap .chap4_char_info .chap4_char_info_voice{font-size:20px}
 .tab_wrap .chap4_char_info .chap4_char_info_voice span{font-weight:bold;background:url('../images/images/bg_chap4_info_voice_line.png') right 7px no-repeat;padding-right:10px;margin-right:10px;}
