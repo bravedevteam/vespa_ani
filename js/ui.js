@@ -254,6 +254,11 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop : offset.top}, 500);
         $('.lnb_sub .menu_sub .bg_bar').css('top','182px');
     });
+    $('.btn_main').click(function(){
+        $('.btn_tit').removeClass('on');
+        $('.btn_main').addClass('on');
+        $('.underline').removeClass('on');
+    })
     $('.btn_game_info,.synop').click(function(){
         $('.btn_tit').removeClass('on');
         $('.btn_game_info').addClass('on');
