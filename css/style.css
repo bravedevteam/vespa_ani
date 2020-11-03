@@ -176,33 +176,25 @@ section{max-width:1920px;margin:0 auto;}
 
 .chap2_story_info{width:100%;background:url('../images/images/bg_chap_story_info_wrap.png') left 0 top 85px no-repeat;margin-top:103px;padding-bottom:80px}
 .chap2_story_info .chap2_story_info_wrap{width:1200px;margin:0 auto;font-size:20px;color:#222;line-height:40px;display:flex}
-.chap2_story1{background:url('../images/images/img_chap2_story1.png') left bottom no-repeat;overflow: hidden;display:box;width:50%;}
-.chap2_story1 p:last-child{margin-top:60px;}
-.chap2_story1 p{display:none;}
-.chap2_story1 p::after{position: absolute;content:'';}
-.chap2_story2{background:url('../images/images/img_chap2_story2.png') left top no-repeat;overflow: hidden;display:box;width:50%;padding-top:615px}
-.chap2_story2 p{display:none;}
-.chap2_story2 p::after{position: absolute;content:'';}
+.chap2_story1{overflow: hidden;display:box;width:45%;}
+.chap2_story1 p:nth-child(2){margin-top:60px;margin-bottom:90px}
+.chap2_story1 p:first-child,.chap2_story1 p:nth-child(2){display:none;}
+.chap2_story2{overflow: hidden;display:box;width:55%;}
+.chap2_story2 p:first-child::after{position: absolute;content:'';width:100%}
+.chap2_story2 p:last-child{display:none;margin-top:47px;margin-left:100px;}
 
 /* chap2 */
 
 /* chap3*/
-.chap3{position: relative;overflow: hidden;}
+.chap3{position: relative;overflow: hidden;padding-bottom:130px}
 .chap3_wrap{width:1425px;margin:0 auto;position: relative;}
 .chap3_tit_wrap{width:696px;}
-.chap3_tit{width:696px;float:left;}
-.chap3_tit h2{float:left;font-family: 'Poppins';font-weight:bold;font-size:120px;color:#00dce2;position: relative;padding-bottom:40px;margin-bottom:70px}
-.chap3_tit h2.on{background-image: linear-gradient(transparent calc(100% - 6px), #00dce2 6px);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	transition: background-size 1s;
-	background-position:left 0 top 0px;
-
-}
-.chap3_tit span{float:right;margin-top:55px;}
+.chap3_tit{width:696px;float:left;margin-top:100px}
+.chap3_tit h2{float:left;font-family: 'Poppins';font-weight:bold;font-size:120px;color:#00dce2;position: relative;margin-bottom:65px}
+.chap3_tit span{float:right;margin-top:55px;font-weight:bold;}
 .chap3_tit span:last-child{font-size:18px;font-weight:700;}
 .chap3_tit span img{vertical-align:top;cursor: pointer;display: inline-block;margin-top:-20px;}
-.chap3_table{clear:both;width:calc(100% - 10px);height:780px;overflow-y:scroll;padding-right:10px}
+.chap3_table{clear:both;width:calc(100% - 10px);height:650px;overflow-y:scroll;padding-right:10px}
 .chap3_table::-webkit-scrollbar {
     width:3px;
   }
@@ -265,7 +257,7 @@ section{max-width:1920px;margin:0 auto;}
 .chap3_pop_close_btn{position: absolute;top:20px;right:20px;cursor: pointer;}
 
 /* chap4 */
-.chap4{position: relative;}
+.chap4{position: relative;margin-top:180px}
 .chap4 h2{font-family:'Poppins';font-weight:bold;font-size:120px;color:#00dce2;float:right;margin-right:70px;margin-top:100px;line-height:100px}
 .chap4_tab_wrap{margin-top:70px;float:right;clear: both;}
 .chap4_tab_wrap ul li{float:left;display: inline-block;font-size:20px;color:#b7c5d5;margin-right:40px;cursor: pointer;position: relative;padding-bottom:10px}
@@ -327,9 +319,8 @@ section{max-width:1920px;margin:0 auto;}
 	}
 .chap6_tab_wrap ul li:last-child{margin-right:0}
 .tab_content_chap6{margin-top:70px;}
-.music_text{font-family:'Poppins';}
-.music_text p{font-size:24px;color:#222;margin-bottom:8px;}
-.music_text h3{font-size:44px;color:#222;}
+.music_text p{font-size:24px;color:#222;margin-bottom:8px;font-family:'Poppins';}
+.music_text h3{font-size:44px;color:#222;font-family:'Poppins';}
 .music_btn{margin-top:20px;font-size:18px;color:#222;font-weight:bold;}
 .music_btn img{cursor: pointer;vertical-align: middle;}
 .music_player{margin-top:50px;background:url('../images/images/bg_chap6_musicplayer.png') center top no-repeat;width:1200px;height:498px;text-align:left !important;overflow: hidden;}

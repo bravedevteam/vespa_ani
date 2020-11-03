@@ -104,12 +104,12 @@ $(document).ready(function(){
         }
         if(scrollValue < 1500){
             $('.chap2_story1 p:first-child').hide();
-            $('.chap2_story1 p:last-child').hide();
-            $('.chap2_story2 p').hide();
+            $('.chap2_story1 p:nth-child(2)').hide();
+            $('.chap2_story1 p:last-child').show();
         }
         if(scrollValue >= 2100){
             $('.chap2_story1 p:first-child').slideDown(500);
-            $('.chap2_story1 p:last-child').slideDown(600);
+            $('.chap2_story1 p:nth-child(2)').slideDown(600);
             $('.chap2_story2 p').slideDown(750);
         }
         if(scrollValue < 2630){
