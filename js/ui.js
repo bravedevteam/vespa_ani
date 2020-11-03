@@ -105,7 +105,7 @@ $(document).ready(function(){
         if(scrollValue < 1500){
             $('.chap2_story1 p:first-child').hide();
             $('.chap2_story1 p:nth-child(2)').hide();
-            $('.chap2_story1 p:last-child').show();
+            $('.chap2_story1 p:last-child').hide();
         }
         if(scrollValue >= 2100){
             $('.chap2_story1 p:first-child').slideDown(500);
