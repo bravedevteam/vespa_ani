@@ -379,7 +379,7 @@ $(document).ready(function(){
     $('.tab2 .slide02 .button-next').click(function(){
         $('.tab2 .slide02').hide();
         $('.tab2 .slide03').fadeIn('linear');
-        $('.tab2.slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
+        $('.tab2 .slide03 .button-prev').css("background","url('images/images/btn_chap4_slide_prev_on.png') no-repeat")
         return false
     })
     $('.tab2 .slide02 .button-prev').click(function(){
