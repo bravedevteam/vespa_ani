@@ -111,7 +111,7 @@ $(document).ready(function(){
             $('.chap2_story1 p:first-child').slideDown(500);
             $('.chap2_story1 p:nth-child(2)').slideDown(600);
             $('.chap2_story1 p:nth-child(3)').slideDown(700);
-            $('.chap2_story2 p').slideDown(750);
+            $('.chap2_story2 p').slideDown(950);
         }
         if(scrollValue < 2630){
             $('.chap3_tit h2').removeClass('on')
