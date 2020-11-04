@@ -147,7 +147,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap1 */
 .chap1{height:1080px;position: relative;}
 .visual_top{width:1200px;text-align:center;margin:0 auto;position: relative;z-index:2;top:167px;}
-.visual_top .chap1_logo{background:url('../images/images/img_chap1_visual_top_title.png') center top no-repeat;width:497px;height:131px;margin:0 auto 50px auto;}
+.visual_top .chap1_logo{background:url('../images/images/img_chap1_visual_top.png') center top no-repeat;width:791px;height:248px;margin:0 auto 50px auto;}
 .visual_top .chap1_tit_title{font-size:55px;color:white;font-weight:800;margin-bottom:40px}
 .visual_top .chap1_tit_sub{color:white;font-size:25px}
 .visual_top .chap1_tit_sub p{line-height:45px;}
@@ -180,7 +180,7 @@ section{max-width:1920px;margin:0 auto;}
 .chap2_story1 p:nth-child(2){margin-top:60px;margin-bottom:50px}
 .chap2_story1 p:first-child,.chap2_story1 p:nth-child(2){display:none;}
 .chap2_story2{overflow: hidden;display:box;width:55%;}
-.chap2_story2 p:first-child::after{position: absolute;content:'';width:100%}
+.chap2_story2 p:first-child::after{position: absolute;content:'';width:100%;}
 .chap2_story2 p:last-child{display:none;margin-top:7px;margin-left:100px;}
 
 /* chap2 */
@@ -259,7 +259,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap4 */
 .chap4{position: relative;margin-top:180px}
 .chap4 h2{font-family:'Poppins';font-weight:bold;font-size:120px;color:#00dce2;float:right;margin-right:70px;margin-top:100px;line-height:100px}
-.chap4_tab_wrap{margin-top:70px;float:right;clear: both;margin-right:110px;position: relative;z-index:10000}
+.chap4_tab_wrap{margin-top:70px;float:right;clear: both;margin-right:110px;position: relative;z-index:2}
 .chap4_tab_wrap ul li{float:left;display: inline-block;font-size:20px;color:#b7c5d5;margin-right:40px;cursor: pointer;position: relative;padding-bottom:10px}
 .chap4_tab_wrap ul li a{color:#b7c5d5;}
 .chap4_tab_wrap ul li.on,.chap4_tab_wrap ul li:hover{color:#222;background-image: linear-gradient(transparent calc(100% - 2px), #1fd9de 2px);
@@ -280,8 +280,11 @@ section{max-width:1920px;margin:0 auto;}
 .tab_wrap .chap4_char_info .chap4_char_info_voice span{font-weight:bold;background:url('../images/images/bg_chap4_info_voice_line.png') right 7px no-repeat;padding-right:10px;margin-right:10px;}
 .tab_wrap .chap4_char_info div:last-child{margin-top:40px;font-size:20px;color:#222;line-height:40px;letter-spacing:-1px;}
 .tab_wrap .chap4_char_info div:last-child img{margin-top:50px;display:block;}
-.button-next{background:url('../images/images/btn_chap4_slide_next_on.png') no-repeat;width:63px;height:63px;position: absolute;right:0;cursor: pointer;top:490px;right:226px}
-.button-prev{background:url('../images/images/btn_chap4_slide_prev_off.png') no-repeat;width:63px;height:63px;position: absolute;left:0;cursor: pointer;top:490px;left:296px}
+.button-next{background:url('../images/images/btn_chap4_slide_next_off.png') no-repeat;width:63px;height:63px;position: absolute;right:0;cursor: pointer;top:490px;right:226px;z-index:2}
+.button-next:hover{background:url('../images/images/btn_chap4_slide_next_on.png') no-repeat;}
+.button-prev{background:url('../images/images/btn_chap4_slide_prev_off.png') no-repeat;width:63px;height:63px;position: absolute;left:0;cursor: pointer;top:490px;left:296px;;z-index:2}
+.button-prev:hover{background:url('../images/images/btn_chap4_slide_prev_on.png') no-repeat;}
+.obj{position: absolute;z-index:1;}
 .chap4_visual{width:100%;height:845px;margin-top:-252px;position: relative;z-index:2}
 .chap4_visual .chap4_video{width:1500px;height:845px;margin:0 auto;}
 /* chap4 */
@@ -344,6 +347,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap6 */
 /* chap7 */
 .chap7{position: relative;}
+.chap7_logo{background:url('../images/images/img_chap7_visual_top.png') center top no-repeat;width:664px;height:239px;margin:0 auto 50px auto;}
 .chap7_appdown_btn{text-align:center;}
 .chap7_appdown_btn li{display:inline-block;}
 .chap7_appdown_btn li:last-child{margin-left:-20px}
