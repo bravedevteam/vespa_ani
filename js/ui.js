@@ -80,6 +80,8 @@ $(document).ready(function(){
             $('.menu-trigger span').css('background','white');
             $('.chap2_visual .chap2_tit').slideUp(1000)
             $('.chap2_visual .chap2_video').hide().animate({top:0},1100)
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
         if(scrollValue >= 638){
             $('.lnb_sub .type_w .num_01').css('display','none');
@@ -101,8 +103,10 @@ $(document).ready(function(){
             $('.menu-trigger span').css('background','black');
             $('.chap2_visual .chap2_tit').slideDown(1000)
             $('.chap2_visual .chap2_video').show().animate({top:475},1100)
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
-        if(scrollValue < 1500){
+        /*if(scrollValue < 1500){
             $('.chap2_story1 p:first-child').hide();
             $('.chap2_story1 p:nth-child(2)').hide();
             $('.chap2_story1 p:last-child').hide();
@@ -112,7 +116,7 @@ $(document).ready(function(){
             $('.chap2_story1 p:nth-child(2)').slideDown(600);
             $('.chap2_story1 p:nth-child(3)').slideDown(700);
             $('.chap2_story2 p').slideDown(1250);
-        }
+        }*/
         if(scrollValue < 2630){
             $('.chap3_tit h2').removeClass('on')
         }
@@ -137,6 +141,8 @@ $(document).ready(function(){
             $('.lnb_sub .num_box.num_total .num_total_sum').css("background","url('images/common/bg_num_total02.png') no-repeat");
             $('.lnb_sub .menu_sub .bg_bar').css('top','64px');
             $('.menu-trigger span').css('background','black');
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
         if(scrollValue >= 4835){
             $('.lnb_sub .type_w .num_01').css('display','none');
@@ -156,6 +162,8 @@ $(document).ready(function(){
             $('.lnb_sub .num_box.num_total .num_total_sum').css("background","url('images/common/bg_num_total01.png') no-repeat");
             $('.lnb_sub .menu_sub .bg_bar').css('top','91px');
             $('.menu-trigger span').css('background','white');
+            $('.lnb_sub .menu_sub .bar_sub').removeClass('bar_sub').addClass('bar_sub_on');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','white')
         }
         if(scrollValue >= 6730){
             $('.lnb_sub .type_w .num_01').css('display','none');
@@ -175,6 +183,8 @@ $(document).ready(function(){
             $('.lnb_sub .num_box.num_total .num_total_sum').css("background","url('images/common/bg_num_total02.png') no-repeat");
             $('.lnb_sub .menu_sub .bg_bar').css('top','128px');
             $('.menu-trigger span').css('background','black');
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
         if(scrollValue >= 8125){
             $('.lnb_sub .type_w .num_01').css('display','none');
@@ -194,6 +204,8 @@ $(document).ready(function(){
             $('.lnb_sub .num_box.num_total .num_total_sum').css("background","url('images/common/bg_num_total02.png') no-repeat");
             $('.lnb_sub .menu_sub .bg_bar').css('top','150px');
             $('.menu-trigger span').css('background','black');
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
         if(scrollValue >= 9214){
             $('.lnb_sub .type_w .num_01').css('display','none');
@@ -213,6 +225,8 @@ $(document).ready(function(){
             $('.lnb_sub .num_box.num_total .num_total_sum').css("background","url('images/common/bg_num_total01.png') no-repeat");
             $('.lnb_sub .menu_sub .bg_bar').css('top','182px');
             $('.menu-trigger span').css('background','white');
+            $('.lnb_sub .menu_sub .bar_sub_on').removeClass('bar_sub_on').addClass('bar_sub');
+            $('.lnb_sub .menu_sub .bg_bar').css('background','#1fd9de')
         }
         if(scrollValue == 0){
             $('.btn_tit').removeClass('on');
