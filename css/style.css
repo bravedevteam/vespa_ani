@@ -345,6 +345,9 @@ section{max-width:1920px;margin:0 auto;}
 .music_player p:nth-child(2){font-size:16px;color:#f1f8ff;margin-top:12px;margin-left:534px;line-height:25px;}
 .music_player p:last-child{font-size:16px;color:#f1f8ff;margin-top:7px;margin-left:534px;}
 .music_info{color:#222;font-size:20px;margin-top:100px;line-height:45px}
+.music_info p:first-child{font-weight:bold;}
+.music_info p:nth-child(3){font-weight:lighter;}
+.music_info p:nth-child(3) span{color:#717f8f}
 /* chap6 */
 /* chap7 */
 .chap7{position: relative;}
