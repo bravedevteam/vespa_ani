@@ -250,7 +250,7 @@ section{max-width:1920px;margin:0 auto;}
 .chap3_pop_list::-webkit-scrollbar-track {
    background-color: #e9f2fb;
 }
-.chap3_pop_list dl{border-bottom:1px solid #e7eaee;width:950px;padding-bottom:30px;margin-bottom:30px;cursor: pointer;overflow: hidden;}
+.chap3_pop_list dl{border-bottom:1px solid #e7eaee;width:950px;padding-bottom:30px;margin-bottom:30px;overflow: hidden;}
 .chap3_pop_list dt{float:left;}
 .chap3_pop_list dd{float:left;color:#222;font-size:16px;margin-left:20px;line-height:30px;width:710px}
 .chap3_pop_list dd span{display:block;font-size:23px;margin-bottom:10px;margin-top:0px}
@@ -323,7 +323,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap5 */
 /* chap6 */
 .chap6{position: relative;padding-top:162px;padding-bottom:130px}
-.music_wrap{margin:0 auto;background:url('../images/images/bg_chap6_text.png') center top 586px no-repeat;}
+.music_wrap{margin:0 auto;background:url('../images/images/bg_chap6_text.png') center top 610px no-repeat;}
 .music{width:1200px;margin:0 auto;text-align: center;}
 .music_wrap h2{font-family:'Poppins';font-weight:bold;font-size:120px;color:#00dce2;text-align:center;}
 .chap6_tab_wrap{margin-top:70px;overflow: hidden;}
