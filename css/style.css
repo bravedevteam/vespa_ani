@@ -167,8 +167,8 @@ section{max-width:1920px;margin:0 auto;}
 /* chap2 */
 .chap2{position: relative;padding-bottom:80px}
 .chap2_visual{background:url('../images/images/bg_chap2.png') no-repeat;width:100%;height:921px;}
-.chap2_visual .chap2_tit{width:1200px;margin:0 auto;text-align:center;padding-top:135px;display:none;}
-.chap2_visual .chap2_video{width:1200px;height:673px;margin:120px auto 0 auto;display:none;}
+.chap2_visual .chap2_tit{width:1200px;margin:0 auto;text-align:center;padding-top:135px;}
+.chap2_visual .chap2_video{width:1200px;height:673px;margin:120px auto 0 auto;}
 .chap2_visual .chap2_video:after{content:'';position: absolute;z-index:2;}
 
 .chap2_content{width:100%;background:#f1f8ff;overflow: hidden;padding-top:305px;}
