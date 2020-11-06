@@ -348,6 +348,8 @@ section{max-width:1920px;margin:0 auto;}
 .music_info p:first-child{font-weight:bold;margin-bottom:20px;}
 .music_info p:nth-child(3){font-weight:lighter;}
 .music_info p:nth-child(3) span{color:#717f8f}
+.music_info_text{font-weight:lighter;margin-top:20px}
+.music_info_text span{font-weight: bold !important;}
 /* chap6 */
 /* chap7 */
 .chap7{position: relative;}
