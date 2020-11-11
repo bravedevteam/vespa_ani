@@ -148,7 +148,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap1 */
 .chap1{height:1080px;position: relative;}
 .visual_top{width:1200px;text-align:center;margin:0 auto;position: relative;z-index:2;top:167px;}
-.visual_top .chap1_logo{background:url('../images/images/img_chap1_visual_top.png') center top no-repeat;width:791px;height:248px;margin:0 auto 50px auto;}
+.visual_top .chap1_logo{background:url('../images/images/img_chap1_visual_top.png') center top no-repeat;width:791px;height:340px;margin:0 auto 50px auto;}
 .visual_top .chap1_tit_title{font-size:55px;color:white;font-weight:800;margin-bottom:40px}
 .visual_top .chap1_tit_sub{color:white;font-size:25px}
 .visual_top .chap1_tit_sub p{line-height:45px;}
@@ -218,11 +218,13 @@ section{max-width:1920px;margin:0 auto;}
 	width:1150px;
 	height:875px;
 	border:2px solid #1fd9de;
-	position: absolute;
-	z-index: 1000;
-	top:0;
-	left:20%;
+	position: fixed;
+	z-index:999999;
+	top:50%;
+	left:50%;
 	display:none;
+	margin-left: -575px;
+	margin-top: -437.5px;
 	
 }
 .chap3_pop h2{font-family:'Poppins';font-weight:bold;font-size:40px;color:#00dce2;text-align:center;margin-top:60px;}
@@ -259,7 +261,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap4 */
 .chap4{position: relative;margin-top:180px}
 .chap4 h2{font-family:'Poppins';font-weight:bold;font-size:120px;color:#00dce2;float:right;margin-right:70px;margin-top:100px;line-height:100px}
-.chap4_tab_wrap{margin-top:70px;float:right;clear: both;margin-right:110px;position: relative;z-index:2}
+.chap4_tab_wrap{margin-top:70px;float:right;clear: both;margin-right:29px;position: relative;z-index:2}
 .chap4_tab_wrap ul li{float:left;display: inline-block;font-size:20px;color:#b7c5d5;margin-right:40px;cursor: pointer;position: relative;padding-bottom:10px}
 .chap4_tab_wrap ul li a{color:#b7c5d5;}
 .chap4_tab_wrap ul li.on,.chap4_tab_wrap ul li:hover{color:#222;background-image: linear-gradient(transparent calc(100% - 2px), #1fd9de 2px);
@@ -353,7 +355,7 @@ section{max-width:1920px;margin:0 auto;}
 /* chap6 */
 /* chap7 */
 .chap7{position: relative;}
-.chap7_logo{background:url('../images/images/img_chap7_visual_top.png') center top no-repeat;width:664px;height:239px;margin:0 auto 50px auto;}
+.chap7_logo{background:url('../images/images/img_chap7_visual_top.png') center top no-repeat;width:664px;height:317px;margin:0 auto 50px auto;}
 .chap7_appdown_btn{text-align:center;}
 .chap7_appdown_btn li{display:inline-block;}
 .chap7_appdown_btn li:last-child{margin-left:-20px}

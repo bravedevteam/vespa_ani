@@ -375,7 +375,7 @@ $(document).ready(function(){
     
     /* chap3 */
     $('.chap3_tit_on').click(function(){
-        $('.chap3_pop').show().css('position','fixed').css('top','5%');
+        $('.chap3_pop').show()
         $('body').css('overflow','hidden')
         $('#mask').show(function(){
             $('#mask').fadeTo("fast",.8);    
@@ -468,6 +468,103 @@ $(document).ready(function(){
     $('.tab3 .slide03 .button-prev').click(function(){
         $('.tab3 .slide03').hide();
         $('.tab3 .slide02').fadeIn('linear');
+    })
+    $('.tab4 .slide01 .button-next').click(function(){
+        $('.tab4 .slide01').hide();
+        $('.tab4 .slide02').fadeIn('linear');
+    })
+    $('.tab4 .slide02 .button-next').click(function(){
+        $('.tab4 .slide02').hide();
+        $('.tab4 .slide03').fadeIn('linear');
+    })
+    $('.tab4 .slide03 .button-next').click(function(){
+        $('.tab4 .slide03').hide();
+        $('.tab4 .slide04').fadeIn('linear');
+    })
+    $('.tab4 .slide04 .button-next').click(function(){
+        $('.tab4 .slide04').hide();
+        $('.tab4 .slide05').fadeIn('linear');
+    })
+    $('.tab4 .slide05 .button-next').click(function(){
+        $('.tab4 .slide05').hide();
+        $('.tab4 .slide06').fadeIn('linear');
+    })
+    $('.tab4 .slide06 .button-next').click(function(){
+        $('.tab4 .slide06').hide();
+        $('.tab4 .slide07').fadeIn('linear');
+    })
+    $('.tab4 .slide07 .button-next').click(function(){
+        $('.tab4 .slide07').hide();
+        $('.tab4 .slide08').fadeIn('linear');
+    })
+    $('.tab4 .slide08 .button-next').click(function(){
+        $('.tab4 .slide08').hide();
+        $('.tab4 .slide09').fadeIn('linear');
+    })
+    $('.tab4 .slide09 .button-next').click(function(){
+        $('.tab4 .slide09').hide();
+        $('.tab4 .slide10').fadeIn('linear');
+    })
+    $('.tab4 .slide10 .button-next').click(function(){
+        $('.tab4 .slide10').hide();
+        $('.tab4 .slide11').fadeIn('linear');
+    })
+    $('.tab4 .slide11 .button-next').click(function(){
+        $('.tab4 .slide11').hide();
+        $('.tab4 .slide12').fadeIn('linear');
+    })
+    $('.tab4 .slide12 .button-next').click(function(){
+        $('.tab4 .slide12').hide();
+        $('.tab4 .slide01').fadeIn('linear');
+    })
+
+    $('.tab4 .slide01 .button-prev').click(function(){
+        $('.tab4 .slide01').hide();
+        $('.tab4 .slide12').fadeIn('linear');
+    })
+    $('.tab4 .slide02 .button-prev').click(function(){
+        $('.tab4 .slide02').hide();
+        $('.tab4 .slide01').fadeIn('linear');
+    })
+    $('.tab4 .slide03 .button-prev').click(function(){
+        $('.tab4 .slide03').hide();
+        $('.tab4 .slide02').fadeIn('linear');
+    })
+    $('.tab4 .slide04 .button-prev').click(function(){
+        $('.tab4 .slide04').hide();
+        $('.tab4 .slide03').fadeIn('linear');
+    })
+    $('.tab4 .slide05 .button-prev').click(function(){
+        $('.tab4 .slide05').hide();
+        $('.tab4 .slide04').fadeIn('linear');
+    })
+    $('.tab4 .slide06 .button-prev').click(function(){
+        $('.tab4 .slide06').hide();
+        $('.tab4 .slide05').fadeIn('linear');
+    })    
+    $('.tab4 .slide07 .button-prev').click(function(){
+        $('.tab4 .slide07').hide();
+        $('.tab4 .slide06').fadeIn('linear');
+    }) 
+    $('.tab4 .slide08 .button-prev').click(function(){
+        $('.tab4 .slide08').hide();
+        $('.tab4 .slide07').fadeIn('linear');
+    }) 
+    $('.tab4 .slide09 .button-prev').click(function(){
+        $('.tab4 .slide09').hide();
+        $('.tab4 .slide08').fadeIn('linear');
+    }) 
+    $('.tab4 .slide10 .button-prev').click(function(){
+        $('.tab4 .slide10').hide();
+        $('.tab4 .slide09').fadeIn('linear');
+    }) 
+    $('.tab4 .slide11 .button-prev').click(function(){
+        $('.tab4 .slide11').hide();
+        $('.tab4 .slide10').fadeIn('linear');
+    }) 
+    $('.tab4 .slide12 .button-prev').click(function(){
+        $('.tab4 .slide12').hide();
+        $('.tab4 .slide11').fadeIn('linear');
     })
 
     $(".tab_content").hide();
