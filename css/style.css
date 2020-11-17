@@ -378,3 +378,13 @@ footer{width:100%;background:#111112;padding:35px 0;text-align:center;}
 .footer_wrap{width:1200px;margin:0 auto;}
 address{color:#90929b;font-size:13px;font-family:'Poppins';}
 address img{vertical-align: middle;margin-right:10px;}
+
+
+
+@media screen and (max-width:1650px) {
+	.chap4_ch_width{left:-150px !important}
+	.chap4_ch_width1{left:-100px !important}
+	.chap4_ch_width2{left:0px !important}
+	.chap4_ch_width3{left:-250px !important}
+	.chap4_ch_width4{left:100px !important}
+}
